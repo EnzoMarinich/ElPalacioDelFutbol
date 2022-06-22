@@ -81,18 +81,19 @@
 }
 
 .camiseta__river:hover {
-    border: solid rgb(0, 0, 0) 5px;
+    border: solid rgb(0, 0, 0) 10px;
 }
 
 .muestra__botinnike:hover {
-    border: solid rgb(255, 0, 0) 5px;
+    border: solid rgb(0, 0, 0) 10px;
 }
 
 .muestra__botinpuma:hover {
-    border: solid rgb(255, 0, 0) 5px;
+    border: solid rgb(0, 0, 0) 10px;
 }
 
 footer{
+    position: relative;
     bottom: 0%;
     width: 100vw;
     background-color: rgb(203, 0, 0);
@@ -118,4 +119,49 @@ span{
 
 .p-footer{
     text-align: center;
+}
+
+/* SECCION BOTINES    */
+
+main{
+    display: flex;
+}
+
+.section__nike{
+    display: flex;
+    gap: 20px;
+}
+
+.articulo__img{
+    width: 400px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.img__uno{
+    background-image: url(../imagenes/nike-mercurial.jpg);
+}
+
+.img__dos{
+    background-image: url(../imagenes/nike-mercurial-celeste.jpg);
+}
+
+.img__tres{
+    background-image: url(../imagenes/nike-tiempo.png);
+}
+
+
+/* SECCION INDUMENTARIA */
+
+
+.remera__nike{
+    background-image: url(../imagenes/remera-nike.jpg);
+}
+
+.buzo__nike{
+    background-image: url(../imagenes/buzo-nike.png);
+}
+
+.short__nike{
+    background-image: url(../imagenes/short-nike.png);
 }
