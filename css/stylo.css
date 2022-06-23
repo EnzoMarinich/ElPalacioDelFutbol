@@ -121,7 +121,7 @@ span{
     text-align: center;
 }
 
-/* SECCION BOTINES    */
+/*------------------------------- SECCION BOTINES --------------------------------   */
 
 main{
     display: flex;
@@ -130,6 +130,8 @@ main{
 .section__nike{
     display: flex;
     gap: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .articulo__img{
@@ -151,7 +153,7 @@ main{
 }
 
 
-/* SECCION INDUMENTARIA */
+/* ------------------------------SECCION INDUMENTARIA--------------------------------- */
 
 
 .remera__nike{
@@ -165,3 +167,30 @@ main{
 .short__nike{
     background-image: url(../imagenes/short-nike.png);
 }
+
+/*  ----------------------SECCION OFERTAS  ------------------------------------------- */
+
+.conjunto__nike{
+    background-image: url(../imagenes/conjunto-nike.png);
+}
+
+.calza__nike{
+    background-image: url(../imagenes/calza-nike.png);
+}
+
+.zapatilla__nike{
+    background-image: url(../imagenes/zapatilla-nike.png);
+}
+
+/* -----------------------------SECCION CONTACTO------------------------------ */
+
+.main__contacto{
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    width: 700px;
+    margin: 50px;
+}
+
