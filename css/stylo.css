@@ -5,8 +5,10 @@
 }
 
 .header{
+    display: flex;
     background-color: black;
-    height: 50px;
+    height: 64px;
+    align-items: center;
 }
 
 .nav{
@@ -80,17 +82,6 @@
     margin: 10px;
 }
 
-.camiseta__river:hover {
-    border: solid rgb(0, 0, 0) 10px;
-}
-
-.muestra__botinnike:hover {
-    border: solid rgb(0, 0, 0) 10px;
-}
-
-.muestra__botinpuma:hover {
-    border: solid rgb(0, 0, 0) 10px;
-}
 
 footer{
     position: relative;
@@ -124,14 +115,14 @@ span{
 /*------------------------------- SECCION BOTINES --------------------------------   */
 
 main{
-    display: flex;
+    display: block;
 }
 
-.section__nike{
+.section {
     display: flex;
-    gap: 20px;
-    margin-top: 30px;
-    margin-left: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin:40px
 }
 
 .articulo__img{
@@ -140,18 +131,35 @@ main{
     background-size: 100% 100%;
 }
 
-.img__uno{
+.img__uno__nike{
     background-image: url(../imagenes/nike-mercurial.jpg);
 }
 
-.img__dos{
+.img__dos__nike{
     background-image: url(../imagenes/nike-mercurial-celeste.jpg);
 }
 
-.img__tres{
+.img__tres__nike{
     background-image: url(../imagenes/nike-tiempo.png);
 }
 
+.img__uno__adidas{
+    background-image: url(../imagenes/adidas-negros.jpg);
+}
+
+.img__dos__adidas{
+    background-image: url(../imagenes/adidas-predator.jpg);
+}
+
+.img__tres__adidas{
+    background-image: url(../imagenes/adidas-speedflow.jpg);
+}
+
+.articulo:hover{
+    transform: scale(1.07);
+    border: solid rgb(174, 174, 174) 2px;
+    transition: all .2s ease-in-out;
+}
 
 /* ------------------------------SECCION INDUMENTARIA--------------------------------- */
 
