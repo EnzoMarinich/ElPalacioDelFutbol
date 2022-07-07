@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62,5%;
+}
+
 .header{
     display: flex;
     background-color: black;
     height: 64px;
     align-items: center;
+    justify-content: center;
 }
 
-.nav{
-    padding: 15px;
-    padding-left: 370px;
-}
 
 .menu{
     display: flex;
@@ -57,8 +58,8 @@
 .camiseta__river{
     background-image: url(../imagenes/camiseta-river.jpg);
     background-size: 100% 100%;
-    width: 1300px;
-    height: 500px;
+    width: 65em;
+    height: 35em;
     margin-top: 10px;
 }
 
@@ -69,16 +70,16 @@
 .muestra__botinnike{
     background-image: url(../imagenes/botin-nike.jpg);
     background-size: 100% 120%;
-    width: 600px;
-    height: 400px;
+    width: 27em;
+    height: 25em;
     margin: 10px;
 }
 
 .muestra__botinpuma{
     background-image: url(../imagenes/botin-puma.jpg);
     background-size: 100% 100%;
-    width: 600px;
-    height: 400px;
+    width: 27em;
+    height: 25em;
     margin: 10px;
 }
 
@@ -122,7 +123,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin:40px
+    margin:40px ;
+    justify-content: center;
 }
 
 .articulo__img{
@@ -202,3 +204,24 @@ main{
     margin: 50px;
 }
 
+.section__contacto{
+    margin: 1em ;
+}
+
+@media screen and (max-width:715px) {
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+    nav{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:621px) {
+    .menu{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+}
