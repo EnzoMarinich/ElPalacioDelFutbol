@@ -10,6 +10,10 @@ img{
     height: 100%;
 }
 
+p{
+    text-align: center;
+}
+
 .img__uno{
     grid-column: 2 / 6 ;
     grid-row: 1 / 4;
@@ -45,4 +49,34 @@ img:hover{
     transform: scale(1.05);
     border: solid rgb(174, 174, 174) 2px;
     transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width:550px) {
+    .container{
+        grid-template-rows: repeat(24,100px);
+    }
+    .img__uno{
+        grid-column: 2/12;
+        grid-row: 1/4;
+    }
+    .img__dos{
+        grid-column: 2/12;
+        grid-row: 5/8;
+    }
+    .img__tres{
+        grid-column: 2/12;
+        grid-row: 9/12;
+    }
+    .img__cuatro{
+        grid-column: 2/12;
+        grid-row: 13/16;
+    }
+    .img__cinco{
+        grid-column: 2/12;
+        grid-row: 17/20;
+    }
+    .img__seis{
+        grid-column: 2/12;
+        grid-row: 21/24;
+    }
 }
