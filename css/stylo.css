@@ -181,6 +181,18 @@ main{
     background-image: url(../imagenes/short-nike.png);
 }
 
+.camiseta__arg{
+    background-image: url(../imagenes/camiseta-arg.jpg);
+}
+
+.termica__adidas{
+    background-image: url(../imagenes/termica-adidas.jpg);
+}
+
+.media__adidas{
+    background-image: url(../imagenes/medias-adidas.jpg);
+}
+
 /*  ----------------------SECCION OFERTAS  ------------------------------------------- */
 
 .conjunto__nike{
@@ -195,6 +207,17 @@ main{
     background-image: url(../imagenes/zapatilla-nike.png);
 }
 
+.conjunto__puma{
+      background-image: url(../imagenes/conjunto-puma.jpg);
+}
+
+.campera__adidas__b{
+    background-image: url(../imagenes/campera-adidas-blanca.jpg);
+}
+
+.campera__adidas{
+    background-image: url(../imagenes/campera-adidas.jpg);
+}
 /* -----------------------------SECCION CONTACTO------------------------------ */
 
 .main__contacto{
