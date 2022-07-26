@@ -1,0 +1,24 @@
+{
+  "name": "elpalaciodelfutbol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss sass/style.scss stylo.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoMarinich/ElPalacioDelFutbol.git"
+  },
+  "author": "Enzo Marinich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnzoMarinich/ElPalacioDelFutbol/issues"
+  },
+  "homepage": "https://github.com/EnzoMarinich/ElPalacioDelFutbol#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
