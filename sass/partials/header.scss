@@ -1,0 +1,40 @@
+@import '../misc/variables.scss' ;
+
+
+.header{
+    display: flex;
+    background-color: $primary ;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    .menu{
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        text-align: center;
+        .menu__a{
+            text-decoration: none;
+            color: $secundary;
+            padding: 5px;
+        }
+        .submenu{
+            list-style: none;
+            display: none;
+            .submenu__li{
+                color: $secundary; 
+            }
+        }
+        .menu__a:hover{
+            border-bottom: solid 2px $secundary;
+            transition: all .1s;
+        }
+        .menu__li:hover .submenu{
+            display: block;
+            position: absolute;
+            margin-top: 1rem;
+            background-color: $primary;
+        }
+    }
+}
+

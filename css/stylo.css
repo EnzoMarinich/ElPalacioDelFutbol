@@ -8,90 +8,12 @@ html{
     font-size: 62,5%;
 }
 
-.header{
-    display: flex;
-    background-color: black;
-    height: 64px;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.menu{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    text-align: center;
-}
-
-.menu__a{
-    text-decoration: none;
-    color: rgb(216, 0, 0);
-    padding: 5px;
-}
-
-.menu__a:hover{
-    border-bottom: solid 2px rgb(216, 0, 0);
-    transition: all .1s;
-}
-
-.submenu{
-    list-style: none;
-    display: none;
-}
-
-.submenu__li{
-    color: rgb(216, 0, 0); 
-}
-
-
-.menu__li:hover .submenu{
-    display: block;
-    position: absolute;
-    margin-top: 1rem;
-    background-color: rgb(0, 0, 0);
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.camiseta__river{
-    background-image: url(../imagenes/camiseta-river.jpg);
-    background-size: 100% 100%;
-    width: 65em;
-    height: 35em;
-    margin-top: 10px;
-}
-
-.muestra{
-    display: flex;
-}
-
-.muestra__botinnike{
-    background-image: url(../imagenes/botin-nike.jpg);
-    background-size: 100% 120%;
-    width: 27em;
-    height: 25em;
-    margin: 10px;
-}
-
-.muestra__botinpuma{
-    background-image: url(../imagenes/botin-puma.jpg);
-    background-size: 100% 100%;
-    width: 27em;
-    height: 25em;
-    margin: 10px;
-}
-
 
 footer{
     position: relative;
     bottom: 0%;
     width: 100vw;
-    background-color: rgb(203, 0, 0);
+    background-color: #cb0000;
 }
 
 
@@ -162,7 +84,7 @@ main{
 
 .articulo:hover{
     transform: scale(1.07);
-    border: solid rgb(174, 174, 174) 2px;
+    border: solid #aeaeae 2px;
     transition: all .2s ease-in-out;
 }
 
@@ -251,6 +173,13 @@ main{
     .menu{
         justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:418px) {
+    .articulo__descripcion{
+        text-align: center;
     }
 
 }
