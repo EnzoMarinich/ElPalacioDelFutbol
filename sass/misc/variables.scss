@@ -2,8 +2,15 @@
 $primary: #000 ;
 $secundary: #cb0000 ;
 $alternative: #aeaeae ;
-$color-text: #2b2b2b
+$color-text: #2b2b2b;
 
-// letras
+// fuentes
+
+$fuentes:(
+    text-large:5.2em,
+    text-medium:2.2em,
+    text-base:1.6em,
+    text-small:1.4em,
+)
 
 

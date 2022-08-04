@@ -1,0 +1,46 @@
+main{
+    display: block;
+}
+
+.section {
+    @include flex (null, center, null);
+    flex-wrap: wrap;
+    gap: 30px;
+    margin:40px ;
+}
+
+.articulo__img{
+    width: 400px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.img__uno__nike{
+    background-image: url(../imagenes/nike-mercurial.jpg);
+}
+
+.img__dos__nike{
+    background-image: url(../imagenes/nike-mercurial-celeste.jpg);
+}
+
+.img__tres__nike{
+    background-image: url(../imagenes/nike-tiempo.png);
+}
+
+.img__uno__adidas{
+    background-image: url(../imagenes/adidas-negros.jpg);
+}
+
+.img__dos__adidas{
+    background-image: url(../imagenes/adidas-predator.jpg);
+}
+
+.img__tres__adidas{
+    background-image: url(../imagenes/adidas-speedflow.jpg);
+}
+
+.articulo:hover{
+    transform: scale(1.07);
+    border: solid #aeaeae 2px;
+    transition: all .2s ease-in-out;
+} 

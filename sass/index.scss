@@ -1,6 +1,12 @@
 @import './misc/normalize.scss' ;
-@import './views/botines.scss' ;
-@import './views/contacto.scss' ;
-@import './views/home.scss';
+@import './misc/variables.scss';
+@import './misc/mixins.scss' ;
+
+
+@import './partials/header.scss' ;
+
 @import './views/indumentaria.scss' ;
-@import './views/ofertas.scss' ;
+@import './views/contacto.scss';
+
+
+
