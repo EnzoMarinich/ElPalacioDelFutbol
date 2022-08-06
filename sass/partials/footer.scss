@@ -1,0 +1,36 @@
+footer{
+    position: relative;
+    bottom: 0%;
+    width: 100vw;
+    background-color: #cb0000;
+    .footer__div{
+        padding-top: 7px;
+        .div-icono {
+        display: inline;
+        height: 10px;
+        width: 10px;
+        margin-left: 5px;
+        .icono{
+            width: 18px;
+            height: 18px;
+        }
+        span{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13px;
+        }
+    }
+    }
+    .p-footer{
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:639px) {
+    .p-footer{
+        font-size: map-get($fuentes, text-xxs );
+    }
+    
+}
+
+
+

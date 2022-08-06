@@ -1,4 +1,4 @@
-img{
+/* img{
     width: 100%;
     height: 100%;
 }
@@ -30,4 +30,4 @@ img:hover{
     transform: scale(1.05);
     border: solid rgb(174, 174, 174) 2px;
     transition: all .2s ease-in-out;
-}
+} */

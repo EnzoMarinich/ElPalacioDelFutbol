@@ -1,4 +1,4 @@
-.container{
+/* .container{
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -10,7 +10,7 @@ img{
     height: 100%;
 }
 
-p{
+.descripcion{
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ img:hover{
     transform: scale(1.05);
     border: solid rgb(174, 174, 174) 2px;
     transition: all .2s ease-in-out;
-}
+} */
 
 @media screen and (max-width:550px) {
     .container{
@@ -79,4 +79,4 @@ img:hover{
         grid-column: 2/12;
         grid-row: 21/24;
     }
-}
+}/*  */

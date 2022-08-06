@@ -7,6 +7,7 @@ main{
     flex-wrap: wrap;
     gap: 30px;
     margin:40px ;
+    text-align: center;
 }
 
 .articulo__img{
@@ -15,32 +16,32 @@ main{
     background-size: 100% 100%;
 }
 
-.img__uno__nike{
-    background-image: url(../imagenes/nike-mercurial.jpg);
+.remera__nike{
+    background-image: url(../imagenes/remera-nike.jpg);
 }
 
-.img__dos__nike{
-    background-image: url(../imagenes/nike-mercurial-celeste.jpg);
+.buzo__nike{
+    background-image: url(../imagenes/buzo-nike.png);
 }
 
-.img__tres__nike{
-    background-image: url(../imagenes/nike-tiempo.png);
+.short__nike{
+    background-image: url(../imagenes/short-nike.png);
 }
 
-.img__uno__adidas{
-    background-image: url(../imagenes/adidas-negros.jpg);
+.camiseta__arg{
+    background-image: url(../imagenes/camiseta-arg.jpg);
 }
 
-.img__dos__adidas{
-    background-image: url(../imagenes/adidas-predator.jpg);
+.termica__adidas{
+    background-image: url(../imagenes/termica-adidas.jpg);
 }
 
-.img__tres__adidas{
-    background-image: url(../imagenes/adidas-speedflow.jpg);
-}
+.media__adidas{
+    background-image: url(../imagenes/medias-adidas.jpg);
+} 
 
 .articulo:hover{
     transform: scale(1.07);
-    border: solid #aeaeae 2px;
+    border: solid $alternative 2px;
     transition: all .2s ease-in-out;
 } 

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,10 +6,10 @@
 
 html{
     font-size: 62,5%;
-}
+} */
 
 
-footer{
+/* footer{
     position: relative;
     bottom: 0%;
     width: 100vw;
@@ -36,7 +36,7 @@ span{
 
 .p-footer{
     text-align: center;
-}
+} */
 
 /*------------------------------- SECCION BOTINES --------------------------------   */
 
@@ -90,7 +90,7 @@ span{
 
 /* ------------------------------SECCION INDUMENTARIA--------------------------------- */
 
-
+/* 
 .remera__nike{
     background-image: url(../imagenes/remera-nike.jpg);
 }
@@ -113,11 +113,11 @@ span{
 
 .media__adidas{
     background-image: url(../imagenes/medias-adidas.jpg);
-}
+} */
 
 /*  ----------------------SECCION OFERTAS  ------------------------------------------- */
 
-.conjunto__nike{
+/* .conjunto__nike{
     background-image: url(../imagenes/conjunto-nike.png);
 }
 
@@ -139,7 +139,7 @@ span{
 
 .campera__adidas{
     background-image: url(../imagenes/campera-adidas.jpg);
-}
+} */
 /* -----------------------------SECCION CONTACTO------------------------------ */
 
 /* .main__contacto{
@@ -156,7 +156,7 @@ span{
     margin: 1em ;
 } */
 
-@media screen and (max-width:715px) {
+/* @media screen and (max-width:715px) {
     .header{
         flex-direction: column;
         height: auto;
@@ -175,7 +175,7 @@ span{
         flex-wrap: wrap;
     }
 
-}
+} */
 
 @media screen and (max-width:418px) {
     .articulo__descripcion{
@@ -184,3 +184,33 @@ span{
 
 }
 
+@media screen and (max-width:550px) {
+    .container{
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(24,100px);
+    }
+    .img__uno{
+        grid-column: 2/12;
+        grid-row: 1/4;
+    }
+    .img__dos{
+        grid-column: 2/12;
+        grid-row: 5/8;
+    }
+    .img__tres{
+        grid-column: 2/12;
+        grid-row: 9/12;
+    }
+    .img__cuatro{
+        grid-column: 2/12;
+        grid-row: 13/16;
+    }
+    .img__cinco{
+        grid-column: 2/12;
+        grid-row: 17/20;
+    }
+    .img__seis{
+        grid-column: 2/12;
+        grid-row: 21/24;
+    }
+}
