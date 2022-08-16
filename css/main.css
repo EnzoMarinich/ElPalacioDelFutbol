@@ -16,6 +16,8 @@ html {
   height: auto;
   align-items: center;
   justify-content: center; }
+  .header .picture__logo {
+    padding-right: 1.5em; }
   .header .menu {
     display: flex;
     list-style: none;
@@ -28,15 +30,20 @@ html {
     .header .menu .submenu {
       list-style: none;
       display: none; }
-      .header .menu .submenu .submenu__li {
+      .header .menu .submenu__li {
         color: #cb0000; }
+      .header .menu .submenu .submenu__li:hover {
+        border-bottom: solid 1px #cb0000; }
+      .header .menu .submenu__a {
+        color: #cb0000;
+        text-decoration: none; }
     .header .menu .menu__a:hover {
-      border-bottom: solid 2px #cb0000;
-      transition: all .1s; }
+      transition: all .1s;
+      border-bottom: solid 2px #cb0000; }
     .header .menu .menu__li:hover .submenu {
       display: block;
       position: absolute;
-      margin-top: 1rem;
+      padding-top: 1rem;
       background-color: #000; }
 
 footer {

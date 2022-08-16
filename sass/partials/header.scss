@@ -8,6 +8,9 @@
     height: auto;
     align-items: center;
     justify-content: center;
+    .picture__logo{
+        padding-right: 1.5em;
+    }
     .menu{
         display: flex;
         list-style: none;
@@ -21,18 +24,25 @@
         .submenu{
             list-style: none;
             display: none;
-            .submenu__li{
-                color: $secundary; 
+            &__li{
+                color: $secundary;
+            }
+            .submenu__li:hover{
+                border-bottom: solid 1px $secundary;
+            }
+            &__a{
+                color: $secundary;
+                text-decoration: none;
             }
         }
         .menu__a:hover{
-            border-bottom: solid 2px $secundary;
             transition: all .1s;
+            border-bottom: solid 2px $secundary;
         }
         .menu__li:hover .submenu{
             display: block;
             position: absolute;
-            margin-top: 1rem;
+            padding-top: 1rem;
             background-color: $primary;
         }
     }
